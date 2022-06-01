@@ -1,0 +1,111 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+.sum{
+    width: 1100px;
+    height: 740px;
+    background-color:rgb(62, 140, 174);
+    position: relative;
+}
+.website{
+    width: 900px;
+    height: 630px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #845ac7;
+    position: absolute;
+    left: 100px;
+    top: 55px;
+    box-shadow: 5px 5px 5px rgb(87, 87, 87);
+}
+.menu{
+    display: flex;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 30px;
+}
+.menu ul li a{
+     text-decoration: none;
+     font-size: 20px;
+     color: #845ac7;
+}
+.menu ul li a:hover{
+    color: #000;
+}
+.menu ul li b{
+    text-decoration: none;
+    color: #845ac7;
+    font-size: 30px;
+    margin-left: 20px;
+    line-height:40px;
+}
+.menu ul li b:hover{
+   color: #000;
+}
+.nd1{
+    text-transform: uppercase;
+}
+.nd1 h5{
+    font-size: 80px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.content-left{
+    width: 350px;
+    float: left;
+   
+}
+.content-right{
+    float: left;
+}
+.content-right img{
+    width: 550px;
+    height: 550px;
+    border-radius: 15px;
+}
+.ct{
+    margin-left: 50px;
+    margin-top: -143px;
+    font-size: 37px;
+    font-weight: 300;
+}
+.system{
+    margin-left: 50px;
+    margin-top: -36px;
+    font-weight: 600;
+    font-size: 20px
+}
+.nd2 .text{
+    text-align: justify;
+    width: 300px;
+    margin-top: 60px;
+    text-align: justify;
+    width: 300px;
+    margin-left: 50px;
+}
+.button{
+    width: 120px;
+    height: 30px;
+    border: 1px solid ;
+    border-radius: 15px;
+    background-color: #cf1010;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 43px;
+    margin-left: 130px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(14, 162, 221);
+}
+
+
